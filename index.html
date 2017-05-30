@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Airspace
+title: Cinesec
 permalink: /
 ---
 
@@ -8,11 +8,10 @@ permalink: /
 <section id="slider">
   <div class="container">
     <div class="row">
-      <div class="col-md-10 col-md-offset-2">
         <div class="block">
-          <h1 class="animated fadeInUp">A DIGITAL MARKETING &#38; <br> DESIGN AGENCY</h1>
-          <p class="animated fadeInUp">We love the Web and the work we do.We work closely with our </br> clients to deliver the best possible solutions for their needs</p>
-        </div>
+          <center>
+            <h1 class="animated fadeInUp">Cinesec, IIT Roorkee</h1>
+          </center>
       </div>
     </div>
   </div>
@@ -24,10 +23,37 @@ permalink: /
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2>About Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+            <h2>Latest Update</h2>
+            <p>We will be releasing our next project, "Six and the Road" on 9th of June, 2017</p>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
+          <p>Fact bout videoFact bout bout videoFact bout bout videoFact bout bout videoFact bout bout videoFact bout bout videoFact bout bout videoFact bout bout videoFact bout bout videoFact bout bout videoFact bout vid</p>
+          <center><h2 id = "date"></h2></center>
+
+          <script>
+            var countDownDate = new Date("June 9, 2017 00:00:00").getTime();
+            var x = setInterval(function() {
+            // Get todays date and time
+            var now = new Date().getTime();
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+            
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            // Output the result in an element with id="demo"
+            document.getElementById("date").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+            
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+          }, 1000);
+          </script>
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
@@ -39,21 +65,7 @@ permalink: /
   </div>
 </section>
 
-<section id="feature">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-6">
-      <h2>WE BELIEVE IN GREAT IDEAS</h2>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <a href="#" class="btn btn-view-works">View Works</a>
-    </div>
-  </div>
-</div>
-</section>
-
-<!-- Service Start -->
+<!--
 <section id="service">
   <div class="container">
     <div class="row">
@@ -122,27 +134,118 @@ permalink: /
     </div>
   </div>
 </section>
+-->
 <!-- Call to action Start -->
 <section id="call-to-action">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
+<section id="portfolio-work">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <div class="portfolio-menu">
+                <ul>
+                    <li class="filter" data-filter="all">All Videos</li>
+                    <li class="filter" data-filter=".Music">Music Videos</li>
+                    <li class="filter" data-filter=".Viral">Viral Videos</li>
+                    <li class="filter" data-filter=".Short">Short Films</li>
+                    <li class="filter" data-filter=".Award">Award Winning Films</li>
+                </ul>
+              </div>
+              <div class="portfolio-contant">
+                <ul id="portfolio-contant-active">
+                  <li class="mix Viral">
+                    <a href="#">
+                      <img src="{{ site.baseurl }}/img/portfolio/work2.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>Campus Tour, IIT Roorkee</h2>
+                          <p>An all round campus tour of IIT Roorkee </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix Short">
+                    <a href="#">
+                      <img src="{{ site.baseurl }}/img/portfolio/work3.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>Infinite Scroll</h2>
+                          <p>A short film on internet addiction </p>
+
+                        </div>
+                      </div>
+
+                    </a>
+                  </li>
+                  <li class="mix Award">
+                    <a href="#">
+                      <img src="{{ site.baseurl }}/img/portfolio/work4.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <center>
+                          <h2>Sorry | IIT Roorkee</h2>
+                          <p>Remake of Justing Beibers Sorry </p>
+                          </center>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix Viral Music">
+                    <a href="#">
+                      <img src="{{ site.baseurl }}/img/portfolio/work5.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <center>
+                            
+                            <h2>Sorry | IIT Roorkee</h2>
+                            <p>Remake of Justing Beibers Sorry </p>
+
+                          </center>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix Short">
+                    <a href="#">
+                      <img src="{{ site.baseurl }}/img/portfolio/work1.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>Nomads</h2>
+                          <p>Entry to London Film making competition </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix Viral Music">
+                    <a href="#">
+                      <img src="{{ site.baseurl }}/img/portfolio/work6.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>Shape of You</h2>
+                          <p>Dance cover on Ed Sheeran's Shape of You </p>
+
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
-  </div>
+</section>
+</section>
 </section>
 <!-- Content Start -->
 <section id="testimonial">
   <div class="container">
     <div class="row">
       <div class="section-title text-center">
-        <h2>Fun Facts About Us</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+        <h2>Fun Facts About Cine</h2>
+        <p>
+          We are a campus group of film making enthusiasts. 
+        </p>
       </div>
     </div>
     <div class="row">
@@ -152,29 +255,29 @@ permalink: /
             <li>
               <div class="block">
                 <i class="ion-ios-chatboxes-outline"></i>
-                <h4 class="counter">20000</h4>
+                <h4 class="counter">2000</h4>
                 <span>Cups Of Coffee</span>
               </div>
             </li>
             <li>
               <div class="block">
                 <i class="ion-ios-glasses-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
+                <h4 class="counter">1400000</h4>
+                <span>Views on Youtube</span>
               </div>
             </li>
             <li>
               <div class="block">
                 <i class="ion-ios-compose-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
+                <h4 class="counter">69000</h4>
+                <span>Subscribers</span>
               </div>
             </li>
             <li>
               <div class="block">
                 <i class="ion-ios-timer-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
+                <h4 class="counter">55</h4>
+                <span>Active Members</span>
               </div>
             </li>
 
@@ -189,31 +292,15 @@ permalink: /
                 <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
                 <div class="user">
                   <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
+                  <p><span>Sahil Shah</span> East India Comedy</p>
                 </div>
             </div>
             <div>
               <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                <p>"IIT Roorkee<br>Birth<br> I'm in love with the shape of you<br> Death."</p>
                 <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
-                </div>
-            </div>
-            <div>
-              <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
-                </div>
-            </div>
-            <div>
-              <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
+                  <img src="img/facebook-3.png" alt="Pepole">
+                  <p><span>The Frustrated Engineer</span> </p>
                 </div>
             </div>
           </div>
