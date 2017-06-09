@@ -9,6 +9,35 @@ layout: post
 {% comment %}
 {% include my-themes-great-include.html %}
 {% endcomment %}
+
+A group of six Friends, before graduating, leave for one last bike trip. Now, when you do something for the last time you have great expectations. But a trip becomes memorable when something unexpected happens. Watch the first Chapter of Six and the Road to see the unexpected. Chapter 2 to be released soon.
+ 
+Directed By- Chetan Maheshwari and Ramanjeet Singh
+Edited By- Ramanjeet Singh and Rohit Verma
+Cinematographers- Mayank Ahirwar and Nikunj Agarwal
+Production Head- Chinmay Jain
+Web Developer- Harkirat Singh
+Design- Aishwarya Hire
+Production Team- Chinmay Jain, Yash Trivedi, Aishwarya Hire, Nikunj Agarwal, Anjali Nauhwar, Archie Mehta, Gaurav Meena, Harsh Tiwari, Hari Eswar, Rahul Khobragade and Chetan Maheshwari.
+ 
+Sponsored by-
+Mmojah - https://www.facebook.com/mmojah/
+Birdvoyage- https://www.facebook.com/Birdvoyage/
+ 
+Music Credits-
+Cake by the Ocean by DNCE- https://www.youtube.com/watch?v=vWaRiD5ym74
+Life Itself by Glass Animals - https://www.youtube.com/watch?v=yd9p4n5hLEg
+All I Want by Kodaline - https://www.youtube.com/watch?v=mtf7hC17IBM
+Sun is Shining by Axwell /\ Ingrosso - https://www.youtube.com/watch?v=nbXgHAzUWB0
+Don't let me down by The Chainsmokers - https://www.youtube.com/watch?v=Io0fBr1XBUA
+ 
+Produced by - Cinematic Section IIT Roorkee, Cultural Council.
+ 
+To know more, connect with us on our Fb page - https://www.facebook.com/cinesecIITR/
+ 
+Follow us on our Twitter handle-  https://twitter.com/CinesecIITR
+ 
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
