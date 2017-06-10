@@ -18,7 +18,7 @@ Cinematographers- Mayank Ahirwar and Nikunj Agarwal<br>
 Production Head- Chinmay Jain<br>
 Web Developer- Harkirat Singh<br>
 Design- Aishwarya Hire<br>
-Production Team- Chinmay Jain, Yash Trivedi, Aishwarya Hire, Nikunj Agarwal, Anjali Nauhwar, Archie Mehta, Gaurav Meena, Harsh Tiwari, Hari Eswar, Rahul Khobragade and Chetan Maheshwari.
+Production Team- Chinmay Jain, Yash Trivedi, Aishwarya Hire, Nikunj Agarwal, Anjali Nauhwar, Archie Mehta, Gaurav Meena, Harsh Tiwari, Hari Eswar, Rahul Khobragade and Chetan Maheshwari, Shailendra Sarswat.
 <br>
 Sponsored by-
 Mmojah - https://www.facebook.com/mmojah/<br>
