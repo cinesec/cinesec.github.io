@@ -9,7 +9,7 @@ layout: post
 {% comment %}
 {% include my-themes-great-include.html %}
 {% endcomment %}
-<span style=  "float:right; margin-right:200px;">3021 Views</span>
+<span style=  "float:right; margin-right:200px;">3021 Views</span><br><br>
 A group of six Friends, before graduating, leave for one last bike trip. Now, when you do something for the last time you have great expectations. But a trip becomes memorable when something unexpected happens. Watch the first Chapter of Six and the Road to see the unexpected. Chapter 2 to be released soon.
  
 Directed By- Chetan Maheshwari and Ramanjeet Singh<br>
