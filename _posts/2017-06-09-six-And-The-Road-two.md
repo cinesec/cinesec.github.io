@@ -8,35 +8,37 @@ layout: post
 {% comment %}
 {% include my-themes-great-include.html %}
 {% endcomment %}
-<span style=  "float:right; margin-right:200px;"><strong>4593 Views</strong></span><br><br>
-A group of six Friends, before graduating, leave for one last bike trip. Now, when you do something for the last time you have great expectations. But a trip becomes memorable when something unexpected happens. Watch the first Chapter of Six and the Road to see the unexpected. Chapter 2 to be released soon.
- 
+<span style=  "float:right; margin-right:200px;"><strong>2586 Views</strong></span><br><br>
+College is a fun ride. So when you realise that its gonna end, it sucks! But when you get a farewell, you know its time to learn the lesson: The show must go on.  Watch the second Chapter of Six and the Road to relive those feelings!
+<br>
 Directed By- Chetan Maheshwari and Ramanjeet Singh<br>
 Edited By- Ramanjeet Singh and Rohit Verma<br>
 Cinematographers- Mayank Ahirwar and Nikunj Agarwal<br>
 Production Head- Chinmay Jain<br>
 Web Developer- Harkirat Singh<br>
 Design- Aishwarya Hire<br>
-Production Team- Chinmay Jain, Yash Trivedi, Aishwarya Hire, Nikunj Agarwal, Anjali Nauhwar, Archie Mehta, Gaurav Meena, Harsh Tiwari, Hari Eswar, Rahul Khobragade and Chetan Maheshwari, Shailendra Sarswat.
-<br>
-Sponsored by-
+Production Team- Chinmay Jain, Yash Trivedi, Aishwarya Hire, Nikunj Agarwal, Anjali Nauhwar, Archie Mehta, Gaurav Meena, Harsh Tiwari, Hari Eswar, Rahul Khobragade and Chetan Maheshwari. <br>
+
+Sponsored by-<br>
 Mmojah - https://www.facebook.com/mmojah/<br>
 Birdvoyage- https://www.facebook.com/Birdvoyage/<br>
- 
-Music Credits-<br>
-Cake by the Ocean by DNCE- https://www.youtube.com/watch?v=vWaRiD5ym74<br>
-Life Itself by Glass Animals - https://www.youtube.com/watch?v=yd9p4n5hLEg<br>
-All I Want by Kodaline - https://www.youtube.com/watch?v=mtf7hC17IBM<br>
-Sun is Shining by Axwell /\ Ingrosso - https://www.youtube.com/watch?v=nbXgHAzUWB0<br>
-Don't let me down by The Chainsmokers - https://www.youtube.com/watch?v=Io0fBr1XBUA<br>
- <br>
-Produced by - Cinematic Section IIT Roorkee, Cultural Council.
- <br>
-To know more, connect with us on our Fb page - https://www.facebook.com/cinesecIITR/
- <br>
-Follow us on our Twitter handle-  https://twitter.com/CinesecIITR
- 
 
+Music Credits-<br>
+Best Day of My Life byAmerican Authors-https://www.youtube.com/watch?v=Y66j_BUCBMY<br>
+
+Magic by Coldplay- https://www.youtube.com/watch?v=Qtb11P1FWnc<br>
+
+Count on Me by Bruno Mars
+<br>
+Good Riddance(Time of your life) by Green day- https://www.youtube.com/watch?v=CnQ8N1KacJc
+<br>
+Produced by - Cinematic Section IIT Roorkee, Cultural Council. 
+<br>
+To know more, connect with us on our Fb page - https://www.facebook.com/cinesecIITR/ 
+<br>
+Follow us on our Twitter handle- 
+https://twitter.com/CinesecIITR
+<br>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
