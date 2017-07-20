@@ -8,7 +8,7 @@ layout: post
 {% comment %}
 {% include my-themes-great-include.html %}
 {% endcomment %}
-<span style=  "float:right; margin-right:200px;"><strong>2586 Views</strong></span><br><br>
+<span style=  "float:right; margin-right:200px;"><strong>10244 Views</strong></span><br><br>
 College is a fun ride. So when you realise that its gonna end, it sucks! But when you get a farewell, you know its time to learn the lesson: The show must go on.  Watch the second Chapter of Six and the Road to relive those feelings!
 <br>
 Directed By- Chetan Maheshwari and Ramanjeet Singh<br>
